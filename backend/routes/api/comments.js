@@ -57,3 +57,5 @@ function calculateAverage(array) {
     const sum = calculateSum(array);
     return sum / array.length;
 }
+// This is a 
+
