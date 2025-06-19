@@ -49,13 +49,7 @@ router.post("/", async (req, res) => {
         res.status(500).json({ message: "Error adding comment" });
     }
 });
-function calculateSum(array) {
+function calculateSum(arr) {
     return array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
-function calculateAverage(array) {
-    if (array.length === 0) return 0;
-    const sum = calculateSum(array);
-    return sum / array.length;
-}
-// This is a 
 
